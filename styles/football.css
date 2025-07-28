@@ -38,6 +38,10 @@ nav{
     width: 100px;
     height: 34px;
 }
+.btn1 a{
+    text-decoration: none;
+    color: white;
+}
 .ban-h{
     max-width: 485px;
     font-size: 64px;
@@ -55,6 +59,10 @@ nav{
     border: none;
     width: 100px;
     height: 34px;
+}
+.btn2 a{
+    text-decoration: none;
+    color: white;
 }
 .ban-img{
     width: 556px;
@@ -132,6 +140,9 @@ nav{
 }
 .icon{
     padding-left: 160px;
+}
+button a:hover{
+    color: antiquewhite;
 }
 footer{
     max-width: 1140px;
