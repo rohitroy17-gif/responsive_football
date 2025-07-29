@@ -1,7 +1,6 @@
 
 body{
     width: 100%;
-    height: 0 auto;
     background-color:#F5F8FF;
 }
 header{
@@ -10,11 +9,14 @@ header{
     margin: 0 auto;   
 }
 nav ul{
-    max-width: 1140px;
+
     display: flex;
     gap: 20px;
-    padding-left:80px;
+    padding-left:30px;
     padding-top: 10px;
+}
+.bar{
+    visibility: hidden ;
 }
 nav ul li{
     list-style: none;
@@ -120,6 +122,10 @@ nav{
     font-size: 64px;
     color: black;
 }
+.high-img{
+    width: 567px;
+    height: 427px;
+}
 .logo{
     padding-left: 300px;
     max-width: 1140px;
@@ -148,4 +154,76 @@ footer{
     max-width: 1140px;
     margin: 0 auto;
     padding-bottom: 30px;
+}
+
+@media screen and (max-width:578px) {
+    body{
+        width: 100%;
+        margin: 0 auto;
+    }
+    header{
+        width: 100%;
+        margin: 0 auto;
+    }
+    nav ul li{
+        padding-top: 50px;
+        visibility: hidden;
+    }
+    .bar{
+        visibility: visible;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .login{
+       margin-top: -55px;
+    }
+    .ban-sec{
+        flex-direction: column;
+    }
+    .card-item{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .high-img{
+        width: 328px;
+        height: 248px;
+    }
+    .h-img{
+        margin-top: 10px;
+        margin-left: 60px;
+    }
+    .highlight-sec{
+        flex-direction: column;
+    }
+    footer{
+        width: 100%;
+        margin: 0 auto;
+    }
+     .logo {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .logo-img {
+        width: 90%;
+        height: auto;
+    }
+
+    .icon {
+        padding-left: 0;
+        justify-content: center;
+    }
+
+    .icon-img {
+        margin: 0 5px;
+    }
+
+    .icon p {
+        padding-left: 0;
+        text-align: center;
+    }
 }
