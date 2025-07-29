@@ -178,11 +178,14 @@ footer{
         flex-direction: column;
     }
     .login{
-       margin-top: -70px;
-       margin-left: -160px;
+       margin-top: -90px;
+       margin-left: -200px;
     }
     .ban-sec{
         flex-direction: column;
+    }
+    .ban-h {
+        padding-left: 0;    
     }
      .ban-img {
         width: 90%;
